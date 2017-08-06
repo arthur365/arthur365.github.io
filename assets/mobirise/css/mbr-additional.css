@@ -1,11 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
-
-
-
 
 
 
@@ -59,12 +55,6 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Oswald', sans-serif;
 }
-.btn {
-  border-radius: 1.6em;
-}
-.mbr-subscribe .btn {
-  border-radius: 1.6em !important;
-}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -91,7 +81,7 @@ h6,
   font-style: normal;
 }
 .bg-primary {
-  background-color: #2969b0 !important;
+  background-color: #b8312f !important;
 }
 .bg-success {
   background-color: #90a878 !important;
@@ -106,8 +96,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #2969b0;
-  border-color: #2969b0;
+  background-color: #b8312f;
+  border-color: #b8312f;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -116,14 +106,14 @@ h6,
 .btn-primary:active,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #1b4472;
-  border-color: #1b4472;
+  background-color: #7b211f;
+  border-color: #7b211f;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #1b4472 !important;
-  border-color: #1b4472 !important;
+  background-color: #7b211f !important;
+  border-color: #7b211f !important;
 }
 .btn-secondary {
   background-color: #fc0e01;
@@ -227,8 +217,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #16385d;
-  color: #16385d;
+  border-color: #671b1a;
+  color: #671b1a;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -236,14 +226,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #2969b0;
-  border-color: #2969b0;
+  background-color: #b8312f;
+  border-color: #b8312f;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #2969b0 !important;
-  border-color: #2969b0 !important;
+  background-color: #b8312f !important;
+  border-color: #b8312f !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -346,7 +336,7 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #2969b0 !important;
+  color: #b8312f !important;
 }
 .text-success {
   color: #90a878 !important;
@@ -373,36 +363,36 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #2969b0;
+  border-color: #b8312f;
 }
 .btn-social:hover {
-  background: #2969b0;
+  background: #b8312f;
 }
 .mbr-company .list-group-item.active .list-group-text {
-  color: #2969b0;
+  color: #b8312f;
 }
 .mbr-footer p a,
 .mbr-footer ul a {
-  color: #2969b0;
+  color: #b8312f;
 }
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #2969b0;
+  background: #b8312f;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #2969b0;
+  color: #b8312f;
 }
 .lead a,
 .lead a:hover {
-  color: #2969b0;
+  color: #b8312f;
 }
 .lead blockquote {
-  border-color: #2969b0;
+  border-color: #b8312f;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #79aae0;
+  color: #e08886;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -422,48 +412,33 @@ h6,
 }
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
-  color: #2969b0;
+  color: #b8312f;
+}
+.scrollToTop_wraper {
+  opacity: 0 !important;
 }
 #msg-box8-x .mbr-section-title,
 #msg-box8-x p {
   color: #fff;
 }
 #msg-box8-x .lead P {
-  color: #f3c649;
-  text-align: left;
+  color: #efefef;
 }
 #msg-box8-x .lead B {
-  color: #fac51c;
+  color: #ffffff;
   font-size: 20px;
 }
 #msg-box8-x .lead {
   color: #ffffff;
   font-size: 20px;
 }
-#msg-box8-x .lead PRE {
-  color: #f40f0c;
-  font-size: 48px;
-  font-family: 'Bitter', serif;
-}
-#msg-box8-x .lead UL {
-  text-align: right;
-}
-#msg-box8-x .lead H4 {
-  text-align: center;
-}
 #content5-g .mbr-section-title,
 #content5-g p {
   color: #fff;
 }
-#footer1-2 P {
-  text-align: center;
-  font-size: 14px;
-}
-#gallery3-d P {
-  text-align: right;
-  font-size: 12px;
-  font-family: 'Oswald', sans-serif;
-  color: #ffffff;
+#social-buttons2-n .mbr-section-title,
+#social-buttons2-n .btn-social {
+  color: #232323;
 }
 #ext_menu-u .hide-buttons .nav-btn {
   display: none !important;
@@ -493,7 +468,7 @@ h6,
 #ext_menu-u .dropdown-item:hover,
 #ext_menu-u .link:focus,
 #ext_menu-u .dropdown-item:focus {
-  color: #2969b0;
+  color: #b8312f;
 }
 #ext_menu-u .link[aria-expanded="true"],
 #ext_menu-u .dropdown-menu {
@@ -520,51 +495,40 @@ h6,
 }
 #ext_menu-u .bg-color.transparent.opened .link:hover,
 #ext_menu-u .bg-color.transparent.opened .link:focus {
-  color: #2969b0;
+  color: #b8312f;
 }
 #ext_menu-u .link[aria-expanded="true"],
 #ext_menu-u .dropdown-item[aria-expanded="true"] {
-  color: #2969b0!important;
+  color: #b8312f!important;
 }
 #ext_menu-u .btn {
   font-size: 13px;
 }
 #msg-box5-y .btn {
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
 }
 #msg-box5-y SPAN {
   font-family: 'PT Serif', serif;
-  font-size: 20px;
 }
 #msg-box5-y P {
   color: #ffffff;
-  font-size: 22px;
 }
 #msg-box5-y H3 {
   color: #ffffff;
 }
-#msg-box5-y I {
-  color: #c1c1c1;
-}
 #form1-12 .form-control-label {
   color: #ffffff;
 }
-#form1-12 .btn {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+#social-buttons3-11 .mbr-section-title,
+#social-buttons3-11 .btn-social {
+  color: #fff;
 }
-#form1-12 .mbr-section-title SPAN {
-  color: #c1b89c;
+#content5-o .mbr-section-title,
+#content5-o p {
+  color: #fff;
 }
-#form1-12 SMALL {
-  color: #ffffff;
-}
-#social-buttons2-1b .mbr-section-title,
-#social-buttons2-1b .btn-social {
+#social-buttons2-s .mbr-section-title,
+#social-buttons2-s .btn-social {
   color: #232323;
-}
-#social-buttons2-1b .mbr-section-title {
-  font-size: 36px;
-  color: #cccccc;
 }
